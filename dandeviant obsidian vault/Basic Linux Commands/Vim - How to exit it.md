@@ -1,0 +1,45 @@
+Vim Cheat Sheet
+
+---
+
+Esc	= Normal Mode
+i       = Insert Mode
+V      = Visual Mode:
+
+ (Shift)(;:) = Command Mode
+
+--- 
+
+**Commands**
+
+:q! 	  = quit without saving
+:w	  = save changes
+:wq / :x! = save and quit
+
+:2   = move to line 2 or any number
+:$	  = move to last line
+
+[Shift]+[6/^] = move to beginning of line
+
+---
+
+**Normal Mode**
+
+2x[D] = Delete the whole highlighted line
+2x[U] = Undo
+Hold [V] + [<]/[>]= Select and deselect text
+[Y] = yank mode / copy highlighted text
+[P] = paste after yank
+[O] = Enter new line (enter Insert Mode)
+
+
+:/<KEYWORD> = search keyword in file
+[N] = next search (NOT IN INSERT MODE)
+
+---
+
+Split Screen
+
+:split FILE_NAME  = split screen horizontally
+:vsplit FILE_NAME = split screen vertically
+[Ctrl]+[W] = switch window focus 
