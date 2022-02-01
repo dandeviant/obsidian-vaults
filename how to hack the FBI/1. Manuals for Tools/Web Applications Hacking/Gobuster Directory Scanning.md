@@ -7,7 +7,7 @@ gobuster is basically a **HTTP web app hacking tools** to see what directory is 
 
 ```bash
 	
-gobuster dir http://$IP -w /usr/share/wordlists/<choose wordlists>
+gobuster dir -u http://$IP -w /usr/share/wordlists/<choose wordlists>
 
 ```
 
@@ -53,5 +53,5 @@ Flags for gobuster command
 Sample command
 
 ```bash
-gobuster dir http://$192.168.0.1:8080 -w /usr/share/wordlists/dirb/common.txt
+gobuster dir -u http://$192.168.0.1:8080 -w /usr/share/wordlists/dirb/common.txt
 ```
