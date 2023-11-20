@@ -18,7 +18,7 @@ You can just straight up download gobuster without updating anything altho updat
 > sudo apt-get install gobuster
 > ```
 
-Where to find the damn wordlists?
+Where to find the wordlists?
 
 >```bash
 >/usr/share/wordlists/dirbuster
