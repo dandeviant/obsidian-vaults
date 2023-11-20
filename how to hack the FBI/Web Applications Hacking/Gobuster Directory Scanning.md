@@ -12,7 +12,7 @@ gobuster dir -u http://$IP -w /usr/share/wordlists/<choose wordlists>
 ```
 
 
-You can just straight up download gobuster without updating anything ev ntho updating is a good practice when using Linux
+You can just straight up download gobuster without updating anything altho updating is a good practice when using Linux
 
 > ```bash
 > sudo apt-get install gobuster
